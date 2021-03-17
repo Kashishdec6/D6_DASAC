@@ -1,0 +1,88 @@
+@import "../../../MainCSS.css";
+
+.Form_Div_New {
+    width: 400px;
+    height: 250px;
+    height: auto;
+    padding-top: 10px;
+    font-family: var(--fontfamily);
+}
+.MuiInput-underline:before {
+    border-bottom: 1px solid white !important;
+}
+.MuiInput-underline.Mui-error:after {
+    border-bottom: 1px solid var(--ycolor) !important;
+}
+.MuiInput-underline:after {
+    border-bottom: 1px solid white !important;
+}
+.MuiInputBase-input {
+    color: white !important;
+    padding: 3px !important;
+    font-size: 0.85rem !important;
+    font-weight:normal !important;
+    padding-bottom: 6px !important;
+}
+.MuiFormLabel-root {
+    color: white  !important;
+    font-size:0.9rem !important;
+    font-weight:normal !important;
+}
+.MuiButton-containedPrimary {
+    font-size: 1.3rem !important;
+ /*   width: 120px !important; */
+    height: 30px !important; 
+    border: 1px solid var(--ycolor) !important;
+    border-radius: 4px !important;
+    margin-top: 5px !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    color: var(--ycolor) !important;
+    background-color: var(--gcolor) !important;
+}
+.MuiButton-contained.Mui-disabled {
+    font-size: 0.8rem !important;
+}
+.MuiButton-containedPrimary:hover {
+    background-color: var(--ycolor) !important;
+    color: var(--gcolor) !important;
+    border: 1px solid var(--gcolor) !important;
+}
+
+.PNDiv2 {
+    height: 55px;
+    margin-top: 10px;
+  }
+
+  .PN_Label2 {
+      font-size: 1rem;
+      padding-bottom: 10px;
+  }
+  .PN_Input2 {
+    height: 20px;
+    background-color: var(--gcolor);
+    margin-bottom: 5px;
+  }
+  
+  .PNDiv2 .react-tel-input {
+    font-size: 0.9rem !important;
+  }
+  
+  .PNDiv2 .react-tel-input .form-control {
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+    height: 2rem !important;
+    position: relative;
+    letter-spacing: .01rem;
+    border-radius: 5px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    width: 100% !important;
+    width: auto !important;
+    font-size: 0.9rem !important;
+    color: white !important;
+    background-color:var(--gcolor) !important;
+    border:1px solid white !important;
+  }

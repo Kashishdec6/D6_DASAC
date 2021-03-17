@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './modules/common/Header/D6_SL_Header'
+import Drawer from './modules/common/Header/D6_SL_Drawer'
+import Routes from './Routes'
+import AF from './modules/common/AboveFooter/D6_SL_AF'
+import Footer from './modules/common/Footer/D6_SL_Footer'
+import {BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <Header/> 
+      <Drawer/>
+      <Routes/>
+      <AF/>
+      <Footer/>
+    </BrowserRouter> 
+    </>
   );
 }
 

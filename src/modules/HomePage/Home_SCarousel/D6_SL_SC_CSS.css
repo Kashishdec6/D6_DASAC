@@ -1,0 +1,8 @@
+
+.D6_SL_SC_Slider_Div .slick-next {
+    right: 0px !important;
+}
+.D6_SL_SC_Slider_Div .slick-slide img{
+    width: 100%;
+    height: 550px;
+}

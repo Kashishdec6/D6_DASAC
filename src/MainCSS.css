@@ -1,0 +1,10 @@
+:root{
+    --gcolor: #36444e;
+    --ycolor: #ffd164;
+    --bcolor: #2f2f2f;
+    --wcolor: #ffffff;
+    @font-face {
+        font-family: "Open_Sans";
+        src: url("./assets/Fonts/OpenSans-Regular.ttf") format("ttf")
+    }
+}
