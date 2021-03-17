@@ -67,7 +67,7 @@ const D6_SL_Menu = ({ open }) => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink className="D6_SL_Navbar_Link1" activeClassName="active" exact to="/">
+                            <NavLink className="D6_SL_Navbar_Link1" activeClassName="active" exact to="/ContactUs">
                                 Contact us
                             </NavLink>
                         </li>

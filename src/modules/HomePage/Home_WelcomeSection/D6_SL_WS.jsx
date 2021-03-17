@@ -3,7 +3,7 @@ import {Grid,Container} from '@material-ui/core'
 /*import './D6_SL_WS_CSS.css'*/
 
 const D6_SL_WS_Cont = {
-    marginTop: "140px"
+    marginTop: "30px"
 }
 const D6_SL_WS_Grid1_Div = {
     textAlign: "center",
@@ -32,7 +32,7 @@ const D6_SL_WS_Grid2_Div_H1 = {
     color: "#36444e"
 }
 const D6_SL_WS_Grid2_Div_P = {
-    fontSize: "22px"
+    fontSize: "18px"
 }
 const D6_SL_WS = () => {
     return (

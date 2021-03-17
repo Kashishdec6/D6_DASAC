@@ -15,7 +15,7 @@ function D6_SL_Header() {
                     <img src={Logo} className="D6_SL_Navbar_Items1_Image" alt="SmartLook" /> 
                 </NavLink>
             </div>
-        {/*    <HamBurger/>    */}
+            <HamBurger/>    
         </nav>
         </>
     );

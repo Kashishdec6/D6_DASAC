@@ -12,8 +12,11 @@ const styles = {
 sideNav: { 
 	marginTop: '40px', 
 	zIndex: 3, 
-	marginLeft: '0px', 
-	position: 'fixed', 
+/*	marginLeft: '0px', 
+	position: 'fixed',  */
+	display: 'flex',
+	justifyContent: 'flex-end',
+	color: 'red'
 }, 
 link: { 
 	color: 'black', 
@@ -21,7 +24,7 @@ link: {
 } 
 }; 
 
-export default class MarerialUIDrawer 
+export default class D6_SL_Drawer
 	extends React.Component { 
 constructor(props) { 
 	super(props); 
@@ -50,11 +53,16 @@ render() {
 		</div> 
 		<Divider/> 
 		<Drawer 
-		variant="temporary"
+/*		variant="temporary"  */
+		variant="persistent"
 		open={isDrawerOpened} 
 		onClose={this.closeDrawer} 
 		> 
-		<Link to='/about' style={styles.link}> 
+		<div style={styles.link}>
+			<h3>About</h3>
+			<h3>Home</h3>
+		</div>
+	{/*	<Link to='/about' style={styles.link}> 
 			<List> 
 			<ListItem button key='About Us'> 
 				<ListItemIcon><AccountCircleIcon/> 
@@ -71,7 +79,7 @@ render() {
 			<ListItemText primary='Contact Us' /> 
 			</ListItem> 
 			</List> 
-		</Link> 
+		</Link>  */}
 		</Drawer> 
 	</div> 
 	); 

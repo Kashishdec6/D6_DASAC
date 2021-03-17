@@ -11,13 +11,13 @@
     justify-content: space-between;
     background-color: rgba(0,0,0,0.7);
     background-color: #36444e;
-    background-color: transparent;
+    background-color: transparent;   
     color: white;
     position: fixed; 
     top: 0;
     font-family: var(--fontfamily);
     z-index: 10;
-    border-bottom: 1px solid black;
+ /*   border-bottom: 1px solid black;  */
 }
 
 .D6_SL_Navbar_Items1_Image {
